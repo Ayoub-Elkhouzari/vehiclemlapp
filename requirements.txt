@@ -23,7 +23,6 @@ ipython-genutils
 ipywidgets
 itsdangerous
 jedi
-Jinja
 joblib
 jsonschema
 jupyter
