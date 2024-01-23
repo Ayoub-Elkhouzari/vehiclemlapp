@@ -3,7 +3,6 @@ async-generator
 attrs
 backcall
 bleach
-catboost
 certifi
 cffi
 click
