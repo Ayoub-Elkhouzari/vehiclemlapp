@@ -1,11 +1,12 @@
 from joblib import load
 from flask import Flask, render_template, request
+from flask_ngrok import run_with_ngrok
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
-
+run_with_ngrok(app)
 # Load the pre-trained model
-model = load('C:\\Users\\Zakariae\\Desktop\\ProjectML\\best_svm_model.joblib')
+model = load('C:\\Users\\ayoubk\\Desktop\\vehiclemlapp\\application\\best_svm_model.joblib')
 
 # Initialize the StandardScaler (not fitted)
 scaler_subset = StandardScaler()
