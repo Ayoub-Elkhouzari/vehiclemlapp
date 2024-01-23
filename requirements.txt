@@ -3,7 +3,6 @@ async-generator
 attrs
 backcall
 bleach
-catboost
 certifi
 cffi
 click
@@ -24,7 +23,6 @@ ipython-genutils
 ipywidgets
 itsdangerous
 jedi
-Jinja
 joblib
 jsonschema
 jupyter
@@ -58,7 +56,6 @@ pyparsing
 pyrsistent
 python-dateutil
 pytz
-pywinpty
 pyzmq
 qtconsole
 QtPy
